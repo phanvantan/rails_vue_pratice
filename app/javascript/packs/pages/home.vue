@@ -28,7 +28,7 @@
         new_task: {
           title: '',
           is_done: false
-        }
+        },
       }
     },
 
@@ -39,7 +39,7 @@
 
       unfinishedTasks: function () {
         return this.tasks.filter(task => !task.is_done)
-      }
+      },
     },
 
     components: { Task },
